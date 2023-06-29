@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1> positive or negitive numder </h1>
+    <span>enter number</span>
+    <input type="number" id="myText" >
+    <button onclick="myFunction()"> check</button>
+
+    <p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").value;
+  if(x>=0){
+    document.getElementById("demo").innerHTML="given number is positive";
+  }
+  if(x<0){
+    document.getElementById("demo").innerHTML="given number is negitive";
+  }
+}
+</script>
+
+</body>
+</html>
